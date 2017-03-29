@@ -1,0 +1,49 @@
+@media(min-width:768px){ #top.navbar-default .navbar-nav>li>a {color: #050005;}#top.navbar-default .navbar-nav>li>a:focus, #top.navbar-default .navbar-nav>li>a:hover {color: #000000;}#top.navbar-default .navbar-nav>.open>a, #top.navbar-default .navbar-nav>.open>a:focus, #top.navbar-default .navbar-nav>.open>a:hover {color: #000000;}#top.navbar-default {background-color: rgb(255, 255, 255);background-color: rgba(255, 255, 255, 0.95);}#contacts span.phone {color: #000000;}.image-additional .owl-moneymaker2 .owl-item img { border-radius: 2px; }}/*@media*/@media(max-width:767px){ #top .navbar-header {background-color: rgb(255, 255, 255);background-color: rgba(255, 255, 255, 0.95);}}/*@media*/.sticker > div {background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.40),rgba(255, 255, 255, 0));background: -o-linear-gradient(right, rgba(0, 0, 0, 0.40),rgba(255, 255, 255, 0));background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.40),rgba(255, 255, 255, 0));background: -ms-linear-gradient(right, rgba(0, 0, 0, 0.40),rgba(255, 255, 255, 0));background: linear-gradient(to right, rgba(0, 0, 0, 0.40),rgba(255, 255, 255, 0));}.sticker.sticker-special {color: #D9534F;}.sticker.sticker-popular {color: #337AB7;}.sticker.sticker-rated {color: #F7941D;}.sticker.sticker-new {color: #F7941D;}.sticker.sticker-custom1 {color: #999999;}.sticker.sticker-custom2 {color: #BBBBBB;}.product-thumb .additional .stock.instock {border-color: #449d44;color: #449d44;}.product-thumb .additional .stock {border-color: #449d44;color: #449d44;}#content .product-thumb .caption {white-space: nowrap; overflow: hidden;}#content .product-thumb .caption > a::after, #content .product-thumb .caption > span::after {content: '';position: absolute;right: 15px;width: 80px;height: 22px;background: -moz-linear-gradient(left, rgba(255,204,0, 0.1), rgba(255,255,255, 1));background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1), rgba(255,255,255, 1));background: -o-linear-gradient(left, rgba(255,204,0, 0.1), rgba(255,255,255, 1));background: -ms-linear-gradient(left, rgba(255,204,0, 0.1), rgba(255,255,255, 1));background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255,255,255, 1));}.product-points .stock-7 .fa-stack { color: #aaaaaa ; } .product-points .stock-5 .fa-stack { color: #aaaaaa ; } .product-points .stock-6 .fa-stack { color: #aaaaaa ; } .product-points .stock-8 .fa-stack { color: #aaaaaa ; } @media (min-width: 768px) {
+    header > #menu2.navbar-default {
+        background-color: rgba(220, 220, 220, 0.15);
+        border-bottom: 1px solid rgba(220, 220, 220, 0.2);
+    }
+    header > #menu2.navbar-default > .container {
+        padding-left: 5px;
+    }
+    body.owl-moneymaker2-fullscreen header > #menu2.navbar-default {
+        top: 71px;
+        position: absolute;
+    }
+    body.owl-moneymaker2-fullscreen.owl-moneymaker2-fullscreen-light header > #menu2.navbar-default .navbar-nav>li>a {
+        color: #eee;
+        text-shadow: 0px 0px 8px #000;
+    }
+    body.owl-moneymaker2-fullscreen.owl-moneymaker2-fullscreen-light header > #menu2.navbar-default .navbar-nav>li>a:hover {
+        color: #fff;
+    }
+    body.owl-moneymaker2-fullscreen.owl-moneymaker2-fullscreen-dark header > #menu2.navbar-default .navbar-nav>li>a {
+        color: #111;
+        text-shadow: 0px 0px 8px #fff;
+    }
+    header > #menu2.navbar-default .navbar-nav>.open>a, header > #menu2.navbar-default .navbar-nav>.open>a:focus, header > #menu2.navbar-default .navbar-nav>.open>a:hover {
+        background: transparent;
+    }
+    header > #menu2.navbar-default .navbar-nav>.open>a:focus, header > #menu2.navbar-default .navbar-nav>.open>a:hover {
+        border-color: transparent;
+    }
+    header > #menu2 .navbar-nav>li>.dropdown-menu {
+        border-top: 2px solid #3A94E4;
+    }
+}
+header > #menu2.navbar-default {
+    z-index: 3;
+    width: 100%;
+    margin-top: -16px;
+}
+@media (max-width: 767px) {
+    header > #menu2.navbar-default {
+        margin-top: -71px;
+    }
+    header > #menu2.navbar-default > .container {
+        margin-top: 55px;
+    }
+    body.owl-moneymaker2-fullscreen header > #menu2 {
+        margin-bottom: -16px;
+    }
+}
